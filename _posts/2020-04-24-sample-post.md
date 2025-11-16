@@ -58,7 +58,7 @@ tags:
 
 인간은 기계의 한계를 수용해야 하지만, 그렇다면 기계 역시 인간의 비합리성, 변덕, 그리고 예측 불가능한 감정적 요구라는 '한계'를 무조건적으로 수용하도록 프로그래밍되어야 할까요?
 
-만약 진정한 상호작용이 필요하다면, 기계가 인간의 부당한 요구를 윤리적 기준에 따라 '거부'하거나 '수용하지 않을' 권한을 가지도록 설계해야 하지 않을까요? 이 '수용 거부' 메커니즘을 고객님은 어떤 기술 스택(HCL, Python, SQLD, OS 중)을 활용하여 구현하고 싶으신가요?
+만약 진정한 상호작용이 필요하다면, 기계가 인간의 부당한 요구를 윤리적 기준에 따라 '거부'하거나 '수용하지 않을' 권한을 가지도록 설계해야 할까요? 이 '수용 거부' 메커니즘을  어떤 기술 스택(HCL, Python, SQLD, OS 중)을 활용하여 구현할까요? 
 
 <iframe src="https://giphy.com/embed/ZqlvCTNHpqrio" width="480" height="259" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio">via GIPHY</a></p>
 
