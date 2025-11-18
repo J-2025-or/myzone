@@ -1,5 +1,5 @@
 ---
-title: 파이썬 기초 마스터링 및 빅데이터 처리를 위한 핵심 패키지 학습 기록
+title: Beginner Python Application
 layout: post
 post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
 description: 빅데이터가 인공지능의 질을 높인다는 인식을 바탕으로, 첫 번째 프로젝트의 윤리적 AI 비전을 기술적으로 뒷받침하기 위한 Python 및 핵심 라이브러리 학습 기록입니다.
@@ -34,3 +34,4 @@ print(f"업데이트된 리스트: {my_list}")
 
 my_dict = {"name": "Alice", "age": 30}
 print(f"이름 접근: {my_dict['name']}") # 키를 사용한 데이터 접근
+
