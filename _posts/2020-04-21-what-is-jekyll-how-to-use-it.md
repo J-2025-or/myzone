@@ -1,50 +1,50 @@
 ---
-title: What is Jekyll? How to use it?
+title: Exploratory Data Analysis (Data Science)
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
-description: Jekyll is a static site generator. You give it text written in your favorite
-  markup language and it uses layouts to create a static website.
+post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
+description: 파이썬, 인공지능, 기계 학습 개발의 핵심 원동력인 데이터 과학의 중요성을 강조하고, 가치 있는 데이터를 추출하고 정제하는 과정과 그 원칙에 대해 다룹니다.
 tags:
-- jekyll
-- informative
-- technology
+- DataScience
+- Python
+- AI
+- Value
+- ExploratoryDataAnalysis
 ---
 
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}
-###### Source : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+# 💡 데이터 과학의 가치: 인공지능과 개발의 진정한 원천
 
-> ### To know more and get started with Jekyll you can click [here](https://jekyllrb.com/){:targe="_blank"}
-	
-# Installation
-**Jekyll is a Ruby Gem that can be installed on most systems.**
-### Requirements
-* [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank"} version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)
-* [Ruby Gems](https://rubygems.org/pages/download){:target="_blank"} (which you can check by running gem -v)
-* [GCC](https://gcc.gnu.org/install/){:target="_blank"} and [Make](https://www.gnu.org/software/make/){:target="_blank"}
+## 데이터 과학의 중요성 인식
 
-### After Installing the Requirements you can follow these guides:
-**For detailed install instructions have a look at the guide for your operating system.**
-* [macOS](https://jekyllrb.com/docs/installation/macos/){:target="_blank"}
-* [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"}
-* [Other Linux Distros](https://jekyllrb.com/docs/installation/other-linux/){:target="_blank"}
-* [Windows](https://jekyllrb.com/docs/installation/windows/){:target="_blank"}
+저는 수업을 통해 데이터 과학이 **인공지능(AI)과 기계 학습(ML) 개발의 궁극적인 원천**임을 깨닫게 되었습니다. 단순히 파이썬 코드를 작성하거나 알고리즘을 구축하는 것을 넘어, **'가치 있는 데이터를 찾아내고 정제하는 것'**이 모든 기술 개발의 성공을 좌우하는 핵심입니다. 데이터의 품질과 분석 깊이가 곧 AI 모델의 성능을 결정하며, 이는 모든 IT 분야에서 가장 중요하게 다루어져야 할 요소입니다.
 
-### Creating a new Jekyll site
-**We can create a new Jekyll site just by a simple command:**<br>
-> # `jekyll new my-site`
+## 🔍 가치 있는 데이터 추출 및 의사결정 과정
 
-Jekyll will create a new directory named as `my-site` which is customizable (i.e., you can change the name from `my-site` to anything you want for example `jekyll new brutus`).
+### 1. 주요 데이터 수집 방법과 윤리
 
-### Changing into the Directory
-**We have to go inside the directory:**<br>
-> # `cd my-site`
+가치 있는 데이터는 다음의 기본적인 수집 방법을 통해 확보됩니다. 중요한 것은 데이터를 수집할 때 **윤리적인 원칙과 데이터의 편향성**을 항상 염두에 두어야 한다는 점입니다.
 
-Again, `my-site` is just a random name which is customizable.
+* **웹 스크래핑:** 공공 데이터나 웹사이트의 구조화된 정보 수집.
+* **API 활용:** 특정 서비스(예: 소셜 미디어, 금융)에서 공식적으로 제공하는 인터페이스를 통한 정기적 데이터 수집.
+* **공개 데이터셋 활용:** Kaggle, 공공 데이터 포털 등에서 제공하는 대규모 데이터셋 이용.
 
-### Building the site and making it available on a local server
-> # `bundle exec jekyll serve`
+### 2. 탐색적 데이터 분석 (EDA)과 정제
 
-### Browsing your Jekyll site
-> # Browse to [`http://localhost:4000/`](http://localhost:4000/){:target="_blank"}
+수집된 데이터는 반드시 **탐색적 데이터 분석(Exploratory Data Analysis, EDA)** 과정을 거쳐야 합니다. 이 과정은 '데이터의 숨겨진 가치를 추출'하고 '합리적인 의사결정'을 가능하게 합니다.
 
-###### On encountering any problem while building and serving your Jekyll site you can consider visiting to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems){:target="_blank"} page
+#### **핵심 활동:**
+
+1.  **데이터 정제 및 클리닝:**
+    * **결측치 처리:** 데이터가 비어 있는 경우, 적절한 통계적 방법(평균값 대체 등)으로 보완하거나 제거합니다.
+    * **이상치 탐지:** 데이터 분포에서 벗어난 극단적인 값(아웃라이어)을 찾아내 분석의 오류를 줄입니다.
+2.  **데이터 시각화:**
+    * **Matplotlib 및 Seaborn** 등을 사용하여 데이터의 분포, 추세, 변수 간 상관관계를 시각적으로 파악합니다.
+3.  **가치 추출 및 의사결정:**
+    * 분석을 통해 데이터가 담고 있는 의미 있는 **인사이트(Insight)**를 이해하고, 이를 바탕으로 AI 모델 설계나 **비즈니스 의사결정**의 방향을 설정합니다.
+
+> 이처럼 데이터 과학은 단순히 코딩하는 능력을 넘어, 데이터의 **숨겨진 가치를 추출**하고 이를 통해 합리적인 결정을 내리는 데 필수적인 핵심 역량입니다.
+
+---
+
+## 🚀 결론: 데이터의 가치 중심
+
+데이터 과학은 AI 개발의 핵심이며, 가치 있는 데이터를 확보하고 이를 정제하여 인사이트를 도출하는 능력은 4차 산업혁명 시대의 개발자에게 요구되는 가장 중요한 능력입니다. 이는 제가 파이썬 학습과 EDA 프로젝트를 진행하는 궁극적인 목표입니다.
