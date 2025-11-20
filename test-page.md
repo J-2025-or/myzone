@@ -1,29 +1,40 @@
 ---
-title: Test Page
+title: Commands and Functions
 layout: page
 ---
 
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+# PYTHON ESSENTIALS & SYNTAX
 
-[This is a link](#)
+## 1. CONTROL FLOW & KEYWORDS
+### Conditional Statements
+#### Looping Constructs
+##### Exception Handling
+###### Core Modules
 
-> This is a blockquote
+[Python Reference Link](#)
 
-`This is code`
+> `if`, `elif`, `else`, `while`, `for`, `try`, `except`, `finally`
 
-### Bullet List
-* Item 1
-* Item 2
-* Item 3
-* Item 4
+`def example_func(param):`
 
-### Number List
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
+### Bullet List (Built-in Functions)
+* `print`
+* `input`
+* `len`
+* `range`
+* `type`
+
+### Number List (Data Structure Methods)
+1. `list.append`
+2. `list.pop`
+3. `dict.keys`
+4. `str.format`
+
+## 2. PACKAGES & SYNTAX
+* `import`
+* `from`
+* `as`
+* `return`
+* `yield`
+* `class`
+* `self`
